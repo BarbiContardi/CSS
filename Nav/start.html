@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav class="barra">
+      <h1 class="navbar">Navbar</h1>
+      
+      <ul class="menu-visible">
+        <li><a class="home" href="home">Home</a></li>
+        <li><a class="link" href="link">Link</a></li>
+        <li>
+          <label for="dropdown"
+            ><a class="dropdown" href="dropdown">Dropdown</a></label
+          >
+          <select name="dropdown">
+            <option value=""></option>
+          </select>
+        </li>
+        <li><a class="disabled">Disabled</a></li>
+        <div class="search">
+          <input type="text" id="buscar" placeholder="Search" />
+          <button id="buscar-button">Search</button>
+        </div>
+      </ul>
+      <div class="hamburguesa">
+        <img src="menu-2.svg" alt="icono">
+      </div>
+    </nav>
+  </body>
+</html>
