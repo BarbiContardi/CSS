@@ -1,0 +1,55 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 200px;
+    height: 730px; 
+    background-color: #c07070;
+  }
+  
+  
+  .logo-placeholder {
+    padding:10px;
+    text-align:center;
+    margin: 10px;
+  }
+  
+  
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .nav-link {
+    color: #2b2b2b;
+    text-decoration: none; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align:center;
+  }
+  
+  .nav-link:hover {
+    color:#2b2bb2;
+    transition: color 0.3s;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .avatar {
+    background-color: transparent; 
+    margin-bottom: 5px;
+  }
+  
+  .username {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
