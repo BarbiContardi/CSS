@@ -13,7 +13,7 @@ body {
 }
 #orange {
   order: 4;
-  width: 270px;
+  flex-grow: 2;
 }
 #blue {
   order: 5;
