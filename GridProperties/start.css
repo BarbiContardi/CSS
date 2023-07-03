@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25% 50% 25%;
+  grid-template-areas:
+    "header header header"
+    "article1 article2 sidebar"
+    "footer footer sidebar";
+}
+
+#green {
+  grid-area: header;
+}
+#yellow {
+  grid-area: article1;
+}
+#red {
+  grid-area: article2;
+}
+#blue {
+  grid-area: sidebar;
+}
+#orange {
+  grid-area: footer;
+}
+section ul {
+    list-style-type: disc;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 4px;
+}
+li {
+    height: 25px;
+    width: 40px;
+}
