@@ -24,10 +24,15 @@ body{
 .grid > div{
     border-top: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
     padding: 10px;
+}
+.grid > div:last-child{
+    border-right: none;
+}
+.grid > div:nth-child(5){
+    border-right: none;
 }
 
 div.resultado {
@@ -43,6 +48,10 @@ div.resultado {
 .operator{
     background-color:var(--background-color-500);
     font-weight: bold;
+    
+}
+.operator:last-child{
+    border-right: none;
 }
 .equal{
     grid-column: 4;
